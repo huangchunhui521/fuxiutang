@@ -63,7 +63,7 @@ class ConsumerTestCase(unittest.TestCase):
         self.assertEqual(ret["code"], 0)
 
 
-    def test_003(self):
+    def test_004(self):
         """法师登录接口"""
         # 获取法师登录验证码授权
         self.consumer_object.grant_authorization(phone='15818650805', code='11')
