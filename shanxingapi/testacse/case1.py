@@ -56,7 +56,7 @@ class ConsumerTestCase(unittest.TestCase):
 
     def test_003(self):
         """法师登录接口"""
-        # 获取法师登录验证码授权
+        # 获取法师登录验证码授权11
         self.consumer_object.grant_authorization(phone='15818650805', code='11')
         # 法师端登录
         ret=self.consumer_object.login_Master(phone='15818650805')
