@@ -5,7 +5,7 @@ host = https://temple.dev.renrenfo.cn:2443/ts/v2
 Gift_list= /live/app/temple/61/v4/gift?page_num=5&cur_page=1
 
 ;法师登录验证码授权
-grant_authorization= /user/app/v4/temple/:temple_id/auth/master-before
+grant_authorization= /user/app/v4/temple/61/auth/master-before
 
 ;法师登录接口
 login_Master= /user/app/v4/temple/61/auth/master
