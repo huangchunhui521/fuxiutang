@@ -41,21 +41,22 @@ class ConsumerTestCase(unittest.TestCase):
 
 
 
-    def test_001(self):
-        """法师登录验证码授权"""
-        log.info('法师登录验证码授权')
-        ret=self.consumer_object.grant_authorization(phone='15818650805',code='123456')
+    # def test_001(self):
+    #     """法师登录验证码授权"""
+    #     log.info('法师登录验证码授权')
+    #     ret=self.consumer_object.grant_authorization(phone='15818650805',code='123456')
+    #     self.assertEqual(ret["code"], 0)
+
+
+    def test_002(self):
+        """法师登录接口"""
+        # 获取法师登录验证码授权
+        log.info('法师登录接口')
+        self.consumer_object.grant_authorization(phone='15818650805', code='11')
+        # 法师端登录
+        ret=self.consumer_object.login_Master(phone='15818650805')
         self.assertEqual(ret["code"], 0)
 
-
-    # def test_002(self):
-    #     """法师登录接口"""
-    #     # 获取法师登录验证码授权
-    #     log.info('法师登录接口')
-    #     self.consumer_object.grant_authorization(phone='15818650805', code='11')
-    #     # 法师端登录
-    #     ret=self.consumer_object.login_Master(phone='15818650805')
-    #     self.assertEqual(ret["code"], 0)
 
 
     # def test_003(self):
