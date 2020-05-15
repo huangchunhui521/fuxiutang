@@ -18,6 +18,7 @@ class case1(unittest.TestCase):
 
     def tearDown(self):
         print('执行结束')
+        11
 
 
     def test1(self):
