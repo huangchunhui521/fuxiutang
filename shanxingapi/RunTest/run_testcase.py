@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # testcase_dir = "D:\shanxing\TestCase"
     testcase_dir= "D:\\fuxiutang\shanxingapi\\testacse"
     report_dir= "D:\\fuxiutang\shanxingapi\\report"
-    result = br(unittest.defaultTestLoader.discover(testcase_dir, "case1.py"))
+    result = br(unittest.defaultTestLoader.discover(testcase_dir, "case.py"))
     result.report(
         filename="善行"+nowtime+'自动化测试报告',
         description='善行-安卓ui自动化测试',

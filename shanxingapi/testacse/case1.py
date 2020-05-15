@@ -7,7 +7,8 @@
 
 from shanxingapi import *
 import unittest
-from shanxingapi.testFile import fux_api
+from shanxingapi.testFile import fux_api, Token
+from shanxingapi.testFile.fux_api import Consumer
 
 
 class ConsumerTestCase(unittest.TestCase):
@@ -41,31 +42,27 @@ class ConsumerTestCase(unittest.TestCase):
 
 
 
-    def test_001(self):
-        """法师登录验证码授权"""
-        log.info('法师登录验证码授权')
-        ret=self.consumer_object.grant_authorization(phone='15818650805',code='123456')
-        self.assertEqual(ret["code"], 0)
+    # def test_001(self):
+    #     """法师登录验证码授权"""
+    #     log.info('法师登录验证码授权')
+    #     Consumer().grant_authorization(phone='15818650805',code='12345678')
+
 
 
     # def test_002(self):
     #     """法师登录接口"""
-    #     # 获取法师登录验证码授权
-    #     log.info('法师登录接口')
-    #     self.consumer_object.grant_authorization(phone='15818650805', code='11')
-    #     # 法师端登录
-    #     ret=self.consumer_object.login_Master(phone='15818650805')
-    #     self.assertEqual(ret["code"], 0)
+    #     log.info('获取法师登录验证码授权')
+    #     self.consumer_object.grant_authorization(phone='15818650805', code='123456')
+    #     log.info('法师端登录')
+    #     self.consumer_object.login_Master(phone='15818650805')
 
 
-    # def test_003(self):
-    #     """礼物列表"""
-    #     # 获取法师登录验证码授权
-    #     self.consumer_object.grant_authorization(phone='15818650805', code='11')
-    #     # 法师端登录
-    #     self.ret = self.consumer_object.login_Master(phone='15818650805')
-    #     self.ret=Consumer().Master_list()
-    #     self.assertEqual(self.ret["code"], 0)
+
+    def test_003(self):
+        """礼物列表"""
+        self.ret = self.consumer_object.Master_list()
+        self.ret=Consumer().Master_list()
+        self.assertEqual(self.ret["code"], 0)
 
 
 if __name__ == '__main__':
