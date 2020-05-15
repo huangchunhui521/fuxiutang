@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="131228a9-56e7-4463-a81e-85533dddbfff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shanxingapi/testacse/Login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanxingapi/RunTest/run_testcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/RunTest/run_testcase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanxingapi/testFile/Token.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testFile/Token.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanxingapi/testFile/fux_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testFile/fux_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanxingapi/testacse/case1.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testacse/case1.py" afterDir="false" />
-    </list>
+    <list default="true" id="131228a9-56e7-4463-a81e-85533dddbfff" name="Default Changelist" comment="0515" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +199,7 @@
       <workItem from="1589182433600" duration="521000" />
       <workItem from="1589183452440" duration="426000" />
       <workItem from="1589183940491" duration="41000" />
-      <workItem from="1589183993535" duration="60481000" />
+      <workItem from="1589183993535" duration="60799000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1585921760326</created>
@@ -215,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585921760326</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0515">
+      <created>1589537437776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589537437777</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +236,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="0515" />
+    <option name="LAST_COMMIT_MESSAGE" value="0515" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_case1.coverage" NAME="Unittests for case1.case1 Coverage Results" MODIFIED="1585280984474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testacse" />
