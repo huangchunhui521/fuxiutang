@@ -15,7 +15,6 @@ class case1(unittest.TestCase):
         print('url:'+self.url)
 
 
-
     def tearDown(self):
         print('执行结束')
 
