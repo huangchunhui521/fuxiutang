@@ -58,8 +58,6 @@ class ConsumerTestCase(unittest.TestCase):
         log.info('法师端登录')
         self.consumer_object.login_Master(phone='15818650805')
 
-
-
     # def test_003(self):
     #     """礼物列表"""
     #     self.ret = self.consumer_object.Master_list()
