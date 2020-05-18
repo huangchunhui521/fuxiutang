@@ -41,7 +41,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../api920-master" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -194,7 +194,7 @@
       <workItem from="1589183940491" duration="41000" />
       <workItem from="1589183993535" duration="60922000" />
       <workItem from="1589537850561" duration="164000" />
-      <workItem from="1589539838383" duration="3070000" />
+      <workItem from="1589539838383" duration="3881000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1585921760326</created>
@@ -287,7 +287,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589773765651</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;shanxingapi/testacse/case1.py">
+      <created>1589774153809</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589774153809</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;shanxingapi/testacse/case1.py">
+      <created>1589774872732</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589774872732</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
