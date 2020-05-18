@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="131228a9-56e7-4463-a81e-85533dddbfff" name="Default Changelist" comment="" />
+    <list default="true" id="131228a9-56e7-4463-a81e-85533dddbfff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanxingapi/testacse/case4.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testacse/case4.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_CONFLICTS" value="false" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
@@ -194,7 +197,7 @@
       <workItem from="1589183940491" duration="41000" />
       <workItem from="1589183993535" duration="60922000" />
       <workItem from="1589537850561" duration="164000" />
-      <workItem from="1589539838383" duration="3881000" />
+      <workItem from="1589539838383" duration="4529000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1585921760326</created>

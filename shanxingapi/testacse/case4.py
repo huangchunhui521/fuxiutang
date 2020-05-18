@@ -20,7 +20,6 @@ class case1(unittest.TestCase):
         print('执行结束')
 
 
-
     def test1(self):
         """法师列表"""
         pass
