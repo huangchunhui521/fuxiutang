@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="131228a9-56e7-4463-a81e-85533dddbfff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanxingapi/testacse/case4.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testacse/case4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanxingapi/testacse/case4.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +196,7 @@
       <workItem from="1589183940491" duration="41000" />
       <workItem from="1589183993535" duration="60922000" />
       <workItem from="1589537850561" duration="164000" />
-      <workItem from="1589539838383" duration="4529000" />
+      <workItem from="1589539838383" duration="4806000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1585921760326</created>
@@ -304,7 +303,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589774872732</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;shanxingapi/testacse/case1.py">
+      <created>1589775635420</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589775635420</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;shanxingapi/testacse/case1.py">
+      <created>1589775693093</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589775693093</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;shanxingapi/testacse/case1.py">
+      <created>1589775822394</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589775822394</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
