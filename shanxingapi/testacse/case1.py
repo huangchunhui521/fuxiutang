@@ -49,6 +49,8 @@ class ConsumerTestCase(unittest.TestCase):
 
 
 
+
+
     def test_002(self):
         """法师登录接口"""
         log.info('获取法师登录验证码授权')
