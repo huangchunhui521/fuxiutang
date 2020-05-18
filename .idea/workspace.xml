@@ -194,7 +194,7 @@
       <workItem from="1589183940491" duration="41000" />
       <workItem from="1589183993535" duration="60922000" />
       <workItem from="1589537850561" duration="164000" />
-      <workItem from="1589539838383" duration="2681000" />
+      <workItem from="1589539838383" duration="3070000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1585921760326</created>
@@ -280,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589773511927</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;shanxingapi/testacse/case1.py">
+      <created>1589773765651</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589773765651</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
