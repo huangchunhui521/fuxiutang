@@ -49,20 +49,20 @@ class ConsumerTestCase(unittest.TestCase):
 
 
 
-    # def test_002(self):
-    #     """法师登录接口"""
-    #     log.info('获取法师登录验证码授权')
-    #     self.consumer_object.grant_authorization(phone='15818650805', code='123456')
-    #     log.info('法师端登录')
-    #     self.consumer_object.login_Master(phone='15818650805')
+    def test_002(self):
+        """法师登录接口"""
+        log.info('获取法师登录验证码授权')
+        self.consumer_object.grant_authorization(phone='15818650805', code='123456')
+        log.info('法师端登录')
+        self.consumer_object.login_Master(phone='15818650805')
 
 
 
-    def test_003(self):
-        """礼物列表"""
-        self.ret = self.consumer_object.Master_list()
-        self.ret=Consumer().Master_list()
-        self.assertEqual(self.ret["code"], 0)
+    # def test_003(self):
+    #     """礼物列表"""
+    #     self.ret = self.consumer_object.Master_list()
+    #     self.ret=Consumer().Master_list()
+    #     self.assertEqual(self.ret["code"], 0)
 
 
 if __name__ == '__main__':
