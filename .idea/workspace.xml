@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="131228a9-56e7-4463-a81e-85533dddbfff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="131228a9-56e7-4463-a81e-85533dddbfff" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +194,7 @@
       <workItem from="1589183940491" duration="41000" />
       <workItem from="1589183993535" duration="60922000" />
       <workItem from="1589537850561" duration="164000" />
-      <workItem from="1589539838383" duration="2425000" />
+      <workItem from="1589539838383" duration="2681000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1585921760326</created>
@@ -275,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589772271943</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;shanxingapi/testacse/case1.py">
+      <created>1589773511927</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589773511927</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
