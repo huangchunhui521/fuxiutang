@@ -57,16 +57,14 @@ class Token(unittest.TestCase):
         print('data:'+data)
         try:
             # 对接口发送请求
-            # ret = requests.post(url=fs_url, data=data)
             ret = requests.post(url=fs_url, data=data)
             # 把返回结果转换成json格式
             ret_json = ret.json()
             if ret_json["code"]==0:
-                self.token=ret.json()['data']['token']
-                print('self.token:'+self.token)
+                token=ret.json()['data']['token']
+                print('self.token:'+token)
                 log.info("success")
-                # return ret_json
-                return self.token
+                return token
             else:
                 log.warning("warning，response：%s" % ret_json)
                 return False
@@ -75,5 +73,5 @@ class Token(unittest.TestCase):
             log.error("error, %s" % msgs)
             return False
 
-t=Token()
-token=t.login_Master
+# t=Token()
+# token=t.login_Master()

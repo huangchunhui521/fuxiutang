@@ -7,7 +7,7 @@ import datetime
 if __name__ == '__main__':
     nowtime = datetime.datetime.strftime(datetime.datetime.now(), '%Y-%m-%d %H_%M_%S')
     # testcase_dir = "D:\shanxing\TestCase"
-    testcase_dir= "D:\\fuxiutang\shanxingapi\\testacse"
+    testcase_dir= "D:\\fuxiutang\shanxingapi\\testcase"
     report_dir= "D:\\fuxiutang\shanxingapi\\report"
     result = br(unittest.defaultTestLoader.discover(testcase_dir, "case.py"))
     result.report(

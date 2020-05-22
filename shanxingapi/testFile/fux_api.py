@@ -19,8 +19,6 @@ except Exception as msg:
 
 class Consumer(unittest.TestCase):
     def Basic(self):
-        self.ret = None
-        # self.host = conf.get("Master", "host")
         self.host = None
         self.userId = None
         self.cookies = None
@@ -39,22 +37,29 @@ class Consumer(unittest.TestCase):
         # 接口参数
         data = json.dumps({"phone": phone, "verifiable_code": code})
         print('data:' + data)
+        # 对接口发送请求
+        ret = requests.post(url=url, data=data)
         try:
-            # 对接口发送请求
-            ret = requests.post(url=url, data=data)
             # 把返回结果转换成json格式
-            ret_json = ret.json()
-            if ret_json['code'] == 0:
+            if ret.json()['code'] == 0:
                 self.login_random = ret.json()['data']['login_random']
                 print(' self.login_random:' + self.login_random)
+                self.code= ret.json()['code']
+                # print(' self.code:' + self.code)
                 log.info("success")
+                # return self.code,self.login_random
+                return ret.json()
+
             else:
-                log.warning("warning，response：%s" % ret_json)
+                log.warning("warning，response：{}".format(self.ret.json()))
+                # log.warning("warning，response：%s" % self.ret.json())
                 return False
+
 
         except Exception as msgs:
             log.error("error, %s" % msgs)
             return False
+
 
 
     def login_Master(self,phone):
@@ -73,13 +78,14 @@ class Consumer(unittest.TestCase):
             ret = requests.post(url=fs_url, data=data)
             # 把返回结果转换成json格式
             ret_json = ret.json()
-            if ret_json["code"]==0:
+            print(ret)
+            if ret.json()["code"]==0:
                 self.token=ret.json()['data']['token']
                 print('self.token:'+self.token)
                 log.info("success")
-                return ret_json
+                return ret.json()
             else:
-                log.warning("warning，response：%s" % ret_json)
+                log.warning("warning，response：%s" % self.ret.json())
                 return False
 
         except Exception as msgs:
@@ -104,12 +110,21 @@ class Consumer(unittest.TestCase):
                 log.info(ret)
                 return ret_json
             else:
-                log.warning("warning，response：%s" % ret_json)
+                log.warning("warning，response：%s" % self.ret_json)
                 return False
 
         except Exception as msgs:
             log.error("error, %s" % msgs)
             return False
+
+
+    # def ret(self):
+    #     return self.code
+
+
+
+
+
 
 
 
