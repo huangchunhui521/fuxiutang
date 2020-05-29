@@ -5,9 +5,9 @@
 # @Detail :
 
 
-from shanxingapi import *
 import unittest
 from shanxingapi.testFile import fux_api
+from shanxingapi.testcase.Login import Login
 
 
 
@@ -44,21 +44,16 @@ class case1(unittest.TestCase):
 
 
 
-    def test_001(self):
-        """法师登录验证码授权"""
-        log.info('法师登录验证码授权')
-        code=''
-        aa= self.consumer_object.grant_authorization(phone='1581865080511',code='12345678')
-        self.assertEqual(aa[code], 0)
-        # self.assertEqual(code,0)
-
-
-
-
-
-
-
-
+    # def test_001(self):
+    #     """法师登录验证码授权"""
+    #     log.info('法师登录验证码授权')
+    #     aa= self.consumer_object.grant_authorization(phone='15818650805',code='12345678')
+    #     print(aa)
+    #     self.assertEqual(aa['code'], 0)
+    #
+    #
+    #
+    #
     # def test_002(self):
     #     """法师登录接口"""
     #     log.info('获取法师登录验证码授权')
@@ -68,10 +63,10 @@ class case1(unittest.TestCase):
 
 
 
-    # def test_003(self):
-    #     """礼物列表"""
-    #     self.ret = self.consumer_object.Master_list()
-    #     self.assertEqual(self.ret["code"], 0)
+    def test_003(self):
+        """礼物列表"""
+        aa=self.consumer_object.Master_list
+        self.assertEqual(aa['code'], 0)
 
 
 if __name__ == '__main__':
