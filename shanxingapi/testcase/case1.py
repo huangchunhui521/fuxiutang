@@ -50,10 +50,17 @@ class case1(unittest.TestCase):
     #     aa= self.consumer_object.grant_authorization(phone='15818650805',code='12345678')
     #     print(aa)
     #     self.assertEqual(aa['code'], 0)
+<<<<<<< HEAD
     #
     #
     #
     #
+=======
+
+
+
+
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
     # def test_002(self):
     #     """法师登录接口"""
     #     log.info('获取法师登录验证码授权')

@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2bca8835-91c5-4688-930c-669933dbab60" name="Default Changelist" comment="0522">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="2bca8835-91c5-4688-930c-669933dbab60" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanxingapi/testFile/Token.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testFile/Token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanxingapi/testFile/fux_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testFile/fux_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanxingapi/testcase/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testcase/Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanxingapi/testcase/case1.py" beforeDir="false" afterPath="$PROJECT_DIR$/shanxingapi/testcase/case1.py" afterDir="false" />
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +56,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.case3">
     <configuration name="Operate_Excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python tests.Unittests for case1.case1.test_003">
+    <configuration name="Unittests for Login.Login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
       <module name="fuxiutang" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,11 +70,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shanxingapi/testFile" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shanxingapi/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Login.Login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for case1.case1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="fuxiutang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shanxingapi/testcase" />
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shanxingapi/testFile/Operate_Excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -71,28 +105,14 @@
       <method v="2" />
     </configuration>
     <configuration name="TestCaseKeyWord" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="fuxiutang" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shanxingapi/testFile" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shanxingapi/testFile/TestCaseKeyWord.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+=======
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;case1.case1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="case3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for case1.case1.test_001" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
       <module name="fuxiutang" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,6 +125,38 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shanxingapi/testFile/TestCaseKeyWord.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="case3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;case1.case1.test_001&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for case1.case1.test_002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
+      <module name="fuxiutang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shanxingapi/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shanxingapi/testcase/case3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -115,6 +167,14 @@
       <method v="2" />
     </configuration>
     <configuration name="data.xls (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;case1.case1.test_002&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for case1.case1.test_003" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
       <module name="fuxiutang" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,6 +187,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shanxingapi/testFile/data.xls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -134,6 +195,11 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+=======
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;case1.case1.test_003&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
       <method v="2" />
     </configuration>
     <configuration name="data.xls" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -175,11 +241,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.case3" />
         <item itemvalue="Python.TestCaseKeyWord" />
         <item itemvalue="Python.Operate_Excel" />
         <item itemvalue="Python.data.xls (1)" />
         <item itemvalue="Python.data.xls" />
+=======
+        <item itemvalue="Python tests.Unittests for case1.case1.test_003" />
+        <item itemvalue="Python tests.Unittests for case1.case1" />
+        <item itemvalue="Python tests.Unittests for case1.case1.test_001" />
+        <item itemvalue="Python tests.Unittests for case1.case1.test_002" />
+        <item itemvalue="Python tests.Unittests for Login.Login" />
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
       </list>
     </recent_temporary>
   </component>
@@ -197,12 +271,16 @@
       <workItem from="1589787625811" duration="16404000" />
       <workItem from="1589883366643" duration="27219000" />
       <workItem from="1590375697585" duration="17616000" />
+<<<<<<< HEAD
       <workItem from="1590650570227" duration="12298000" />
       <workItem from="1590827451233" duration="5696000" />
       <workItem from="1591154192494" duration="33170000" />
       <workItem from="1591587783891" duration="65000" />
       <workItem from="1591587870455" duration="16000" />
       <workItem from="1591587933705" duration="89000" />
+=======
+      <workItem from="1590650570227" duration="11462000" />
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
     </task>
     <task id="LOCAL-00001" summary="0518">
       <created>1589785558855</created>
@@ -266,15 +344,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="0522" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_case1.coverage" NAME="Unittests for case1.case1 Coverage Results" MODIFIED="1591157455784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testcase" />
     <SUITE FILE_PATH="coverage/fuxiutang$ApiRequest.coverage" NAME="ApiRequest Coverage Results" MODIFIED="1591252737712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testFile" />
+=======
+    <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_case1.coverage" NAME="Unittests for case1.case1 Coverage Results" MODIFIED="1590657402586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testcase" />
+    <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_ConsumerTestCase_test_003.coverage" NAME="Unittests for case1.ConsumerTestCase.test_003 Coverage Results" MODIFIED="1589793299029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testacse" />
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
     <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_Login_ConsumerTestCase.coverage" NAME="Unittests for Login.ConsumerTestCase Coverage Results" MODIFIED="1589787668904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testacse" />
     <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_fux_api_Consumer.coverage" NAME="Unittests for fux_api.Consumer Coverage Results" MODIFIED="1590052486128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testFile" />
+    <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_case1_test_002.coverage" NAME="Unittests for case1.case1.test_002 Coverage Results" MODIFIED="1590573280120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testcase" />
     <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_ConsumerTestCase_test_001.coverage" NAME="Unittests for case1.ConsumerTestCase.test_001 Coverage Results" MODIFIED="1589793474684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testacse" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/fuxiutang$data_xls__1_.coverage" NAME="data.xls (1) Coverage Results" MODIFIED="1591263362514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testFile" />
     <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_case1_test_003.coverage" NAME="Unittests for case1.case1.test_003 Coverage Results" MODIFIED="1590832715108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testcase" />
     <SUITE FILE_PATH="coverage/fuxiutang$data_xls.coverage" NAME="data.xls Coverage Results" MODIFIED="1591258005535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testFile" />
     <SUITE FILE_PATH="coverage/fuxiutang$Operate_Excel.coverage" NAME="Operate_Excel Coverage Results" MODIFIED="1591343589437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testFile" />
+=======
+    <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_case1_test_001.coverage" NAME="Unittests for case1.case1.test_001 Coverage Results" MODIFIED="1590573351460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testcase" />
+    <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_Login_Login.coverage" NAME="Unittests for Login.Login Coverage Results" MODIFIED="1590399469612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testcase" />
+    <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_case1_test_003.coverage" NAME="Unittests for case1.case1.test_003 Coverage Results" MODIFIED="1590660979700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testcase" />
+>>>>>>> b3ec293c15fb4fba64d8d00bed0910664a2390a9
     <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_ConsumerTestCase.coverage" NAME="Unittests for case1.ConsumerTestCase Coverage Results" MODIFIED="1589793226762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testacse" />
     <SUITE FILE_PATH="coverage/fuxiutang$Unittests_for_case1_ConsumerTestCase_test_002.coverage" NAME="Unittests for case1.ConsumerTestCase.test_002 Coverage Results" MODIFIED="1589793244113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testacse" />
     <SUITE FILE_PATH="coverage/fuxiutang$TestCaseKeyWord.coverage" NAME="TestCaseKeyWord Coverage Results" MODIFIED="1591352197703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shanxingapi/testFile" />
