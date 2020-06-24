@@ -7,6 +7,9 @@
 
 from lib.Operate_Excel import Operate_Execl
 from lib import TestCaseKeyWord
+import ast
+
+
 class getData(object):
     def __init__(self):
         self.op_excel=Operate_Execl()
@@ -62,18 +65,23 @@ class getData(object):
         if expected_result=='':
             return None
         else:
-            return expected_result
+            return ast.literal_eval(expected_result)
 
-    def get_actual_resuilt(self,row,value):
+    def get_actual_result(self,row,value):
         """获取实际结果"""
-        col=int(TestCaseKeyWord.get_case_actual_result())
-        actual_result=self.op_excel.get_sheet_cell(row,col)
+        col = int(TestCaseKeyWord.get_case_actual_result())
+        actual_result = self.op_excel.get_sheet_cell(row,col)
         self.op_excel.write_to_excel(row,col,value)
+
+
+
+
 
 if __name__ == '__main__':
     get_data=getData()
     print(get_data.get_is_run(1))
     print(get_data.get_url(1))
+    # print(get_data.get_actual_result(1,"test"))
 
 
 

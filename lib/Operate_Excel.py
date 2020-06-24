@@ -33,7 +33,7 @@ class Operate_Execl(object):
             self.file_path = file_path
             self.sheet_id = sheet_id
         else:
-            self.file_path = r'D:\fuxiutang\Test\data.xls'
+            self.file_path = r'D:\fuxiutang\database\data.xls'
             # 将文件目录拼接成绝对路径
             self.file_path = os.path.join(rootpath, self.file_path)
             print(self.file_path)
@@ -77,7 +77,7 @@ class Operate_Execl(object):
     # 写入数据到excel中
     def write_to_excel(self,row,col,values):
         # 打开excel文件读取数据句柄
-        data=xlrd.open_workbook(self.file_path)
+        data=xlrd.open_workbook(self.file_path,formatting_info=True)
         # 复制excel
         copy_data=copy(data)
         # 读取复制的excel的sheet页
@@ -87,13 +87,12 @@ class Operate_Execl(object):
         # 保存数据
         copy_data.save(self.file_path)
 
+
 if __name__ == '__main__':
     read_xls=Operate_Execl()
     print("获取excel表的行数与列数,返回元组格式:",read_xls.get_sheet_nrows_ncols())
     print("获取wxcel表的行数:",read_xls.get_sheet_nrows())
     print("获取excel表的列数:",read_xls.get_sheet_ncols())
-    print("获取excel表的单元格(1,1)的值:",read_xls.get_sheet_cell(1,1))
-    print("获取excel表的单元格(1,1)的值:", read_xls.get_sheet_cell(1,2))
-    print("获取excel表的单元格(1,1)的值:", read_xls.get_sheet_cell(2,2))
-    print("写入excel表单元格(2,2)的值:",read_xls.write_to_excel(8,8,'test'))
+    print("获取excel表的单元格(1,1)的值:", read_xls.get_sheet_cell(1,1))
+    print("写入excel表单元格(8,8)的值:",read_xls.write_to_excel(8,8,'test'))
 

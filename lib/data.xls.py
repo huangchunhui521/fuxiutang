@@ -12,22 +12,28 @@ from xlutils.copy import copy
 # 获取当前文件的绝对路径
 curPath = os.path.abspath(os.path.dirname(__file__))
 print(curPath)
+
 # 获取项目根目录
 rootPath = os.path.abspath(os.path.dirname(curPath))
 print(rootPath)
 
 # 获取文件路径
-file_path = r'D:\fuxiutang\Test\data.xls'
+file_path = r'D:\FuxiuTang01\database\data.xls'
 file_path = os.path.join(rootPath, file_path)
 print(file_path)
+
 # 打开excel文件
 data = xlrd.open_workbook(file_path)
+
 # 获取第一张工作表（通过索引的方式）
 table = data.sheets()[0]
+
 # data_list用来存放数据
 data_list = []
+
 # 将table中第一行的数据读取并添加到data_list中
 data_list.extend(table.row_values(0))
+
 # 打印出第一行的全部数据
 for item in data_list:
     print(item)
