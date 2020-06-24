@@ -63,7 +63,8 @@ class ApiRequest(object):
             res=self.delete_method(url,data,hearder)
         else:
             res="你的请求方式不对!"
-        return json.dumps(res,ensure_ascii=False,indent=4,sort_keys=True,separators=(',',':'))
+        # return json.dumps(res,ensure_ascii=False,indent=4,sort_keys=True,separators=(',',':'))
+        return res
 
 
     # ensure_ascii：默认值True，如果dict内含有non - ASCII的字符，则会类似\uXXXX的显示数据，设置成False后，就能正常显示。
