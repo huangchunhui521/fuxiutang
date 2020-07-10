@@ -33,7 +33,11 @@ class Operate_Execl(object):
             self.file_path = file_path
             self.sheet_id = sheet_id
         else:
+<<<<<<< HEAD
             self.file_path = r'D:\fuxiutang\database\data.xls'
+=======
+            self.file_path = r'D:\FuxiuTang01\database\data.xls'
+>>>>>>> f09d45ad1756c30239c058666d78fd46362773e5
             # 将文件目录拼接成绝对路径
             self.file_path = os.path.join(rootpath, self.file_path)
             print(self.file_path)

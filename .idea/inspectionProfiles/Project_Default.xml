@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="common.functions.*" />
+          <option value="api.consumer.shangxingapi" />
+          <option value="shanxingapi.testfile.fuxiut.test" />
+          <option value="shanxingapi.testFile.fux_api.ret" />
+          <option value="shanxingapi.testFile.fux_api.*" />
+          <option value="shanxingapi.testFile.Token.*" />
+          <option value="shanxingapi.testacse.Login.ConsumerTestCase.token" />
+          <option value="shanxingapi.testFile.login.ConfigInit" />
+          <option value="shanxingapi.testacse.case1.ConsumerTestCase.ret" />
+          <option value="shanxingapi.testFile.login.send_request" />
+          <option value="shanxingapi.testcase.case1.log" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

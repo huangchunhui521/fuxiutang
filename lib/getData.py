@@ -66,6 +66,10 @@ class getData(object):
             return None
         else:
             return ast.literal_eval(expected_result)
+<<<<<<< HEAD
+=======
+
+>>>>>>> f09d45ad1756c30239c058666d78fd46362773e5
 
     def get_actual_result(self,row,value):
         """获取实际结果"""
